@@ -20,6 +20,8 @@ class LarderStore
 
   def recipe(meal)
 
+    list_of_recipes
+
     if meal == "cheese on toast"
       "toast the bread and cheese in oven"
     end
